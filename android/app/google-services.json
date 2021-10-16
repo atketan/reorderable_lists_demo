@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "785495069190",
+    "project_id": "reorderable-list-demo",
+    "storage_bucket": "reorderable-list-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785495069190:android:0b4459a3e55fd20d39a987",
+        "android_client_info": {
+          "package_name": "com.ketanbhavsar.reorderable_lists_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785495069190-nfium4elj9h58qkkop7se5gj1grc4tu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRrDgpW-yKa24D5_J018v14NosHGA8Kuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785495069190-nfium4elj9h58qkkop7se5gj1grc4tu3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "785495069190-bcaoftepi7lqoa3gjptdd7u1e6132eog.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ketanbhavsar.reorderableListsDemo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

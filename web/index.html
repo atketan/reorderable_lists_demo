@@ -26,7 +26,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>reorderable_lists_demo</title>
+  <title>Reorderable Lists Demo</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -41,5 +41,30 @@
     }
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+  <script>
+    // Import the functions you need from the SDKs you need
+    // import { initializeApp } from "https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDw5xg7t0nz2e8ZF4ayFbapb-UUHvdl1d4",
+      authDomain: "reorderable-list-demo.firebaseapp.com",
+      projectId: "reorderable-list-demo",
+      storageBucket: "reorderable-list-demo.appspot.com",
+      messagingSenderId: "785495069190",
+      appId: "1:785495069190:web:ff88ead85b24c03439a987",
+      measurementId: "G-XGJCVQY19D"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    getFirestore();
+  </script>
 </body>
 </html>
