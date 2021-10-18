@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:reorderable_lists_demo/presentation/simple_reorderable_list_page.dart';
+
+import '../firestore_reorderable_list/firestore_reorderable_list.dart';
+import '../simple_reorderable_list/simple_reorderable_list_page.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key, this.title}) : super(key: key);
@@ -30,6 +32,17 @@ class _HomePageState extends State<HomePage> {
                 );
               },
               child: Text("Simple Reorderable List"),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => FirestoreReorderableListPage(),
+                  ),
+                );
+              },
+              child: Text("Reorderable List with Firestore"),
             )
           ],
         ),
